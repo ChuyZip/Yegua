@@ -110,17 +110,25 @@ public class Venta {
     
     private List<Articulo> articulos;
     
-    private int calcularSubtotal;
+    /** Calcula el subtotal de la venta
+     * 
+     */
+    public void calcularSubtotal() {}
     
-    
-     
-    public void calcularTotal() {}
-
-        for(Articulo a : articulos){
+    for(Articulo a : articulo){ }
     
         if (a.getCategoria() == Categoria.ROPA){
             
-        } else {
+}
+    
+     /**
+      * Calcula el total de la venta 
+      */
+    public void calcularTotal() {
+        
+    }
+
+      
     }
     
 
